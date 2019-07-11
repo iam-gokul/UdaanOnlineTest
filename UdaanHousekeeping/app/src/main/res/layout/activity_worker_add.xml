@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssetAddActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/workername"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:hint="Worker Name"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/workerid"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:hint="workerid"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/workerpassword"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:hint="workerpassword"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/workerAdd"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:text="Add Worker"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/goHome"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:text="Go Home"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        />
+
+</LinearLayout>

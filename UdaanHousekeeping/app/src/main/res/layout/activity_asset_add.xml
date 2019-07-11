@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssetAddActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/assetname"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:hint="Asset Name"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/assetquantity"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:hint="Asset quantity"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/assetTask"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:hint="Asset Task"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/assetAdd"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:text="Add Asset"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/goHome"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:text="Go Home"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        />
+
+</LinearLayout>
